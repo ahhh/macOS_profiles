@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadIdentifier</key>
+    <string>com.example.profile.chrome</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>UUID</string>
+    <key>PayloadOrganization</key>
+    <string>Example</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadDisplayName</key>
+    <string>Chrome Default Configuration</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.google.Chrome</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.example.chromeconfig</string>
+        <key>PayloadUUID</key>
+        <string>UUID</string>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadDisplayName</key>
+        <string>Policy: (com.google.Chrome)</string>
+        <!--Extension Controls-->
+        <key>ExtensionInstallSources</key>
+        <array>
+        <!--Install from any source-->
+          <string>*://*/*</string>
+        </array>
+        <key>ExtensionInstallForcelist</key>
+        <array>
+        <!--Application ID and update URL-->
+            <string>APPID;https://www.example.net/version.xml</string>
+        </array>
+        <key>ExtensionInstallWhitelist</key> <!--Probably don't need this key since there isn't a black list-->
+        <array>
+            <string>APPID</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+</plist>

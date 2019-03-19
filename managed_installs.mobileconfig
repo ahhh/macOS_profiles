@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>org.my.profiles.munki</string>
+	<key>PayloadUUID</key>
+	<string>0d3cd747-8737-30fc-95d8-c53667b64291</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadOrganization</key>
+	<string>My Organization</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>Munki Client Configuration</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>org.my.profiles.munki.settings</string>
+			<key>PayloadUUID</key>
+			<string>8a65fb40-38f3-3a14-a356-4fead4efd506</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (ManagedInstalls)</string>
+			<key>PayloadContent</key>
+			<dict>
+				<key>ManagedInstalls</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>InstallAppleSoftwareUpdates</key>
+								<true/>
+								<key>SoftwareRepoURL</key>
+								<string>https://munki.repo.my.org</string>
+								<key>SoftwareUpdateServerURL</key>
+								<string></string>
+								<key>AppleSoftwareUpdatesOnly</key>
+								<false/>
+								<key>ManagedInstallDir</key>
+								<string>/Library/Managed Installs</string>
+								<key>LogToSyslog</key>
+								<false/>
+								<key>SuppressAutoInstall</key>
+								<false/>
+								<key>SuppressStopButtonOnInstall</key>
+								<false/>
+								<key>UnattendedAppleUpdates</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
