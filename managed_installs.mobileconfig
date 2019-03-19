@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.my.profiles.munki</string>
+	<string>com.github.ahhh.munki</string>
 	<key>PayloadUUID</key>
-	<string>0d3cd747-8737-30fc-95d8-c53667b64291</string>
+	<string>9e6104f0-bb97-4d5d-bea6-0084d5388853</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -26,13 +26,13 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadIdentifier</key>
-			<string>org.my.profiles.munki.settings</string>
+			<string>com.github.ahhh.munki.payload</string>
 			<key>PayloadUUID</key>
-			<string>8a65fb40-38f3-3a14-a356-4fead4efd506</string>
+			<string>53e8be1a-5462-49e4-afb5-601903ecdc4b</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Custom: (ManagedInstalls)</string>
+			<string>Managed</string>
 			<key>PayloadContent</key>
 			<dict>
 				<key>ManagedInstalls</key>

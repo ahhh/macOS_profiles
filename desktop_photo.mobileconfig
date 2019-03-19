@@ -10,17 +10,17 @@
             <key>PayloadEnabled</key>
             <true/>
             <key>PayloadIdentifier</key>
-            <string>com.github.gregneagle.desktoppicture.payload</string>
+            <string>com.github.ahhh.desktopphoto.payload</string>
             <key>PayloadType</key>
             <string>com.apple.desktop</string>
             <key>PayloadUUID</key>
-            <string>91ddc6fa-0ed1-df41-884b-fc5bb12b7ec1</string>
+            <string>53e8be1a-5462-49e4-afb5-601903ecdc4b</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>locked</key>
             <true/>
             <key>override-picture-path</key>
-            <string>/Library/Desktop Pictures/Solid Colors/Solid Gray Medium.png</string>
+            <string>/Library/Desktop Pictures/Death Valley.jpg</string>
         </dict>
     </array>
     <key>PayloadDescription</key>
@@ -28,9 +28,9 @@
     <key>PayloadDisplayName</key>
     <string>Desktop Picture</string>
     <key>PayloadIdentifier</key>
-    <string>com.github.gregneagle.desktoppicture</string>
+    <string>com.github.ahhh.desktopphoto</string>
     <key>PayloadOrganization</key>
-    <string>Your Organization</string>
+    <string>Organization</string>
     <key>PayloadRemovalDisallowed</key>
     <false/>
     <key>PayloadScope</key>
@@ -38,7 +38,7 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>0dc319a0-c331-0131-eeb5-000c294ab81b</string>
+    <string>f44e1962-45df-402d-a80e-9a8d18a2116c</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
 </dict>

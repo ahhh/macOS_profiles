@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>PayloadIdentifier</key>
-    <string>com.example.profile.chrome</string>
+    <string>com.github.ahhh.chrome</string>
     <key>PayloadRemovalDisallowed</key>
     <true/>
     <key>PayloadScope</key>
@@ -11,9 +11,9 @@
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>UUID</string>
+    <string>a69fcaee-d879-4785-9a2f-08f1a80074e9</string>
     <key>PayloadOrganization</key>
-    <string>Example</string>
+    <string>Organization</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadDisplayName</key>
@@ -26,9 +26,9 @@
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>PayloadIdentifier</key>
-        <string>com.example.chromeconfig</string>
+        <string>com.github.ahhh.chrome.payload</string>
         <key>PayloadUUID</key>
-        <string>UUID</string>
+        <string>18d22d34-9757-4dd2-ae75-930b5b5ee372</string>
         <key>PayloadEnabled</key>
         <true/>
         <key>PayloadDisplayName</key>

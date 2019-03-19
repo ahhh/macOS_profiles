@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EnableAssessment</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>System Policy</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.ahhh.gatekeeper.payload</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempolicy.control</string>
+			<key>PayloadUUID</key>
+			<string>0949f130-726d-4f4f-a0d4-e4e1cc9346e1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>System Policy</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.ahhh.gatekeeper</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>fa191a5b-e306-4ee2-a995-de3ef5f1067a</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>HiddenPreferencePanes</key>
+			<array>
+				<string>com.apple.preferences.configurationprofiles</string>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Hide Profiles</string>
+			<key>PayloadDisplayName</key>
+			<string>System Preferences</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.ahhh.profiles.payload</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempreferences</string>
+			<key>PayloadUUID</key>
+			<string>fe3d88f2-6fe7-4717-95cb-be06d1a1d433</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>example template</string>
+	<key>PayloadDisplayName</key>
+	<string>HideProfiles</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.ahhh.profiles</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>46592c61-57b2-4271-a9f8-c6df75e3fa66</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

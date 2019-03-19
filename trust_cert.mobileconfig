@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>Trust3</string>
+			<key>PayloadContent</key>
+			<data>
+			MIIC2TCCAcGgAwIBAgIBBzANBgkqhkiG9w0BAQsFADAaMQswCQYD
+			VQQDDAJ0MzELMAkGA1UEBhMCVVMwHhcNMTkwMzE5MjAxOTQ1WhcN
+			MjExMjEyMjAxOTQ1WjAaMQswCQYDVQQDDAJ0MzELMAkGA1UEBhMC
+			VVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDTtEqX
+			8hP2vaeVLhwAjHvo/ha1siKaaWHWXobg+JiX8Mhvmt2AbvDb+n2W
+			I3fI25xHkpjqS3zuR+ohmTahORRfNH7u/Xq0AdsRs7NQAHLkjqVk
+			ksXi43h5ZI9n4uPDOHOYo/PaZMRs/46crRjvltHphTkd/qWc4vOr
+			+/QtsUzR5mWvxeC+p8X9t9IA7afN2yTAqJnkF779RoL5CeMTkI4I
+			nSYODyBZ6+edowpwGptwrO5GW8sgw/eJ+R/Y2H595DVwyik1pzLv
+			eDv4tg8lAWjLIxBN2tJk4lAvLQIm/SNWKY3ESzbqxuiGKU11YoEc
+			klC+Ea2hIiXfej/RSW44X8ehAgMBAAGjKjAoMA4GA1UdDwEB/wQE
+			AwIHgDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDAzANBgkqhkiG9w0B
+			AQsFAAOCAQEAtTTsjU6V8ZJ6QnCaroTw2QmMCcIj5QJtLsgG1I2d
+			Qi6bH4VLEV0b7V1xXzYUxv/TOZo/PN6pHUvr/oos7kbqlTyCWORd
+			l0pNbgNPa1NWGkVsSpwThyLWJP9uYoqMHRDjzeksbYq9OBa0LI6o
+			3Fg8JlmxNGxzuCR1G3Z4TXFPyj8+v9WQmlyUfAhDZY9RJmCndTRC
+			YXgoiqulsk3kg1oFe23G1oqtEVHEpKVMWI3Wv08A819jJbFD5NPa
+			OmKfxiNrxUauXwsMolou37sVYVZuB25EuIPyBR3FJXeV8y6JXOMH
+			y+hHl1bO8jgWZzd8/0yYet7xmIMCDUW+34Tkpr5j8g==
+			</data>
+			<key>PayloadDisplayName</key>
+			<string>Certificate</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.ahhh.cert.payload</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadUUID</key>
+			<string>73e57ba6-65e9-4abf-a62e-45273daf2584</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>trust</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.ahhh.cert</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5f00544f-f976-469b-a001-9c239192d407</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
