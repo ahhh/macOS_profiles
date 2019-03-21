@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DisabledPreferencePanes</key>
+			<array>
+				<string>com.apple.preferences.users</string>
+				<string>com.apple.preferences.Bluetooth</string>
+				<string>com.apple.preference.digihub.discs</string>
+				<string>com.apple.preference.energysaver</string>
+				<string>com.apple.preference.keyboard</string>
+				<string>com.apple.prefpanel.fibrechannel</string>
+				<string>com.apple.preference.mouse</string>
+				<string>com.apple.preferences.parentalcontrols</string>
+				<string>com.apple.preference.security</string>
+				<string>com.apple.preference.sound</string>
+				<string>com.apple.preference.startupdisk</string>
+				<string>com.apple.preference.trackpad</string>
+				<string>com.apple.preferences.icloud</string>
+				<string>com.apple.Xsan</string>
+				<string>com.apple.prefs.backup</string>
+				<string>com.apple.preference.universalaccess</string>
+				<string>com.apple.preference.speech</string>
+				<string>com.apple.preference.printfax</string>
+				<string>com.apple.preference.network</string>
+				<string>com.apple.preferences.sharing</string>
+				<string>com.apple.Localization</string>
+				<string>com.apple.preference.expose</string>
+				<string>com.apple.preference.ink</string>
+				<string>com.apple.preference.displays</string>
+				<string>com.apple.preference.datetime</string>
+				<string>com.apple.preferences.appstore</string>
+				<string>com.apple.preference.general</string>
+				<string>com.apple.preference.desktopscreeneffect</string>
+				<string>com.apple.preference.dock</string>
+				<string>com.apple.preferences.extensions</string>
+				<string>com.apple.preference.internet</string>
+				<string>com.apple.preferences.internetaccounts</string>
+				<string>com.apple.preference.notifications</string>
+				<string>com.apple.preferences.configurationprofiles</string>
+				<string>com.apple.preference.spotlight</string>
+				<string>com.apple.preferences.softwareupdate</string>
+				<string>com.apple.preferences.password</string>
+				<string>com.apple.preferences.wallet</string>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>System Preferences</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.ahhh.preferences.payload</string>
+			<key>PayloadType</key>
+			<string>com.apple.systempreferences</string>
+			<key>PayloadUUID</key>
+			<string>a6067313-45B3-47e4-901c-0114abde2f56</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>no_prefrences</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.ahhh.preferences</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>e2Ba5299-2245-c9B-81b9-e2cA270B4ef3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
