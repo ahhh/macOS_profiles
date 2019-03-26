@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>AllowUserOverrides</key>
+                <true/>
+                <key>AllowedKernelExtensions</key>
+                <dict>
+                    <key>7PWNBBQFTW</key>
+                    <array>
+                        <string>com.github.ahhh.kext</string>
+                    </array>
+                </dict>
+                <key>AllowedTeamIdentifiers</key>
+                <array>
+                    <string>7PWNBBQFTW</string>
+                </array>
+                <key>PayloadDisplayName</key>
+                <string>Kernel Extensions Policy</string>
+                <key>PayloadEnabled</key>
+                <true/>
+                <key>PayloadIdentifier</key>
+                <string>com.github.ahhh.kextallow.payload</string>
+                <key>PayloadType</key>
+                <string>com.apple.syspolicy.kernel-extension-policy</string>
+                <key>PayloadUUID</key>
+                <string>3dd43f75-05f1-48a0-8f3a-0df8abebbafc</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Allows for the kernel extension</string>
+        <key>PayloadDisplayName</key>
+        <string>Kernel Extension Approval</string>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadIdentifier</key>
+        <string>com.github.ahhh.kextallow</string>
+        <key>PayloadOrganization</key>
+        <string>CompanyName</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>b4ab06fe-85a4-4e59-863e-5091b5c23386</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>
