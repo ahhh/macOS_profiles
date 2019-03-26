@@ -44,7 +44,7 @@
         <key>PayloadOrganization</key>
         <string>CompanyName</string>
         <key>PayloadRemovalDisallowed</key>
-        <false/>
+        <true/>
         <key>PayloadScope</key>
         <string>System</string>
         <key>PayloadType</key>
