@@ -86,7 +86,7 @@
         <key>SignMessage</key>
         <true></true>
         <key>Topic</key>
-        <string></string>
+        <string><micromdm/string>
       </dict>
     </array>
     <key>PayloadDescription</key>
@@ -105,5 +105,7 @@
     <string>072d32d0-241d-4d6d-b855-f783139aa504</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
+    <key>Topic</key>
+    <string><micromdm/string>
   </dict>
 </plist>
