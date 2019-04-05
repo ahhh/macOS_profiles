@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Enable</key>
+			<string>Off</string>
+			<key>PayloadDisplayName</key>
+			<string>FileVault 2</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.ahhh.filevault2</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX.FileVault2</string>
+			<key>PayloadUUID</key>
+			<string>8a29873c-70af-48c5-a450-926fc0db5e82</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>EnableFirewall</key>
+			<false/>
+			<key>PayloadDisplayName</key>
+			<string>Firewall</string>
+			<key>PayloadIdentifier</key>
+			<string>com.github.ahhh.firewall</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.firewall</string>
+			<key>PayloadUUID</key>
+			<string>8fc1f3d8-d7fb-471b-a4ad-807d62db5a94</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>filevault_locked</string>
+	<key>PayloadIdentifier</key>
+	<string>com.github.ahhh.mdmlock</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>157c609d-de27-4045-b1ed-e887b703ffe2</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
